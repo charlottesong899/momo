@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+       
+    <meta charset="UTF-8" />
+    <title>Charlotte's personal website</title>
+</head>
+    <style>
+        body {
+            text-align: center; /* Center-align all content within the body */
+            margin: 0 auto; /* Center-align the table horizontally */
+            margin-top: 50px; /* Add some space above the header */
+        }
+    </style>
+</head>
+<body>
+    <h1>My Contact Detail</h1>
+    <table cellspacing="20">
+        <tr>
+            <td><center>Address:123 Sengkang Road</center></td>
+           
+        </tr>
+        <tr>
+            <td><center>Email:charlotte@gmail.com</center></td>
+          
+        </tr>
+        <tr>
+            <td><center>Contact Number:+65 8888 999</center></td>
+            
+        </tr>
+    </table>  
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        #left-frame {
+            width: 30%;
+            float: left;
+            border: none;
+        }
+
+        #right-frame {
+            width: 70%;
+            float: left;
+            border: none;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<frameset cols="30%,70%" border="0">
+    <frame id="left-frame" src="left_frame.html" name="leftFrame" scrolling="no">
+    <frame id="right-frame" src="right_frame.html" name="rightFrame" scrolling="no">
+</frameset>
+  <table>
+        <tr>
+            <th>Registration Form</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="first_name"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="last_name"></td>
+        </tr>
+        <tr>
+            <td>Email Address:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <!-- Other form labels can be added here -->
+   <tr>
+            <td>Country:</td>
+            <td>
+                <select name="country">
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="text" name="phone_number"></td>
+        </tr>
+        <tr>
+            <td>Hobbies:</td>
+            <td>
+                <select name="hobbies">
+                    <option value="reading">Reading</option>
+                    <option value="traveling">Traveling</option>
+                    <option value="cooking">Cooking</option>
+                    <option value="sports">Sports</option>
+                    <option value="music">Music</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Submit">  
+  
+  </table>
+
+</body>
+</html>
